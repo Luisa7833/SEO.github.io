@@ -1,3 +1,20 @@
+/*
+font-family: 'David Libre', serif;
+
+font-family: 'Francois One', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+
+font-family: 'Francois One', sans-serif;
+font-family: 'Carrois Gothic SC', sans-serif;
+
+font-family: 'Francois One', sans-serif;
+font-family: 'Didact Gothic', sans-serif;
+
+font-family: 'Francois One', sans-serif;
+font-family: 'Carrois Gothic', sans-serif;
+
+*/
+
 /*font-family: 'Shadows Into Light', cursive;
  font-family: 'Indie Flower', cursive;
 */
@@ -21,29 +38,31 @@ background-size: cover;
 
 h1{
 font-family: 'Shadows Into Light', cursive;
-color: white;
+color: black;
 margin-left: 10px;
 font-size: 60px;
 text-align: center; 
 }
 
 h2{
-font-family: 'Indie Flower', cursive;
-color: white;
+font-family: 'Francois One', cursive;
+color: black;
 margin-left: 10px;
 font-size: 20px;
 text-align: left; 
 }
 
-h3{
-font-family: 'Shadows Into Light', cursive;;
-color: white;
-font-size: 30px;
+
+h4{
+font-family: 'Shadows Into Light', cursive;
+color: black;
+font-size: 20px;
 text-align: center; 
 }
 
 
 header{
+	font-color: white;
 	width: 1000px;
 	height: 120 px;
 	background: rgba(255, 255, 255, 10,70);
@@ -52,7 +71,7 @@ header{
 nav{
 width: 1000px;
 height: 50px;
-background: red;
+background: #F2880D;
 border-radius: 10px;
 
 }
@@ -65,7 +84,7 @@ li{
 	float: left;
 	list-style-type: none;
 	padding: 10px;
-	background: black;
+	background: #006680;
 	margin: 3px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px white inset; 
@@ -74,7 +93,7 @@ li{
 
 section{
 	width: 700px;
-	background: gray;
+	background: #006680;
 	height: 600px;
 	float: left;
 	margin-top: 20px;
@@ -94,7 +113,7 @@ aside{
 footer{
 width: 1000px;
 height: 70px;
-background: maroon;
+background: #FF5900;
 float: left;
 margin-top: 20px;
 border-radius: 10px;
