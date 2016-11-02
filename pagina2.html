@@ -62,28 +62,28 @@
              </nav>
             <div id="apDiv14"><a href="https://campus0a.unad.edu.co/campus0/login/index.php" target="_blank"><img src="img/campus.png" width="116" height="101"></a>									</div>
     <section>
-    <h2>Diseño de Sitios Web - UNAD ECBTI</h2>
+    <h2>Paralelo entre Modelo Lógico y Modelo relacional - UNAD ECBTI</h2>
     <div id="apDiv20"><a href="https://informacion.unad.edu.co/correo" target="_blank"><img src="img/rss_aqu_32.png" class="menu" title="Correo Institucional" border="0" /></a></div>
                 <article>
                     <figure>
-                        <img src="img/diseno_web.jpg" alt="Diseno">
+                        <img src="img/tabla.jpg" alt="Paralelo">
                   	</figure>
                     <p>
-                        ¿Qué es OVA y para qué sirve?<br>
-                        OVA es un objeto virtual de aprendizaje de recursos digitales, auto-contentible y reutilizable; con el propósito educativo y constituido por al menos tres componentes internos:<br>
-                        1.  Contenidos, actividades de aprendizaje y elementos de contextualización.<br>
-                        2.  Los objetos de aprendizaje hacen posible el acceso a contenidos educativos, integrando diferentes elementos multimedia para presentar un recurso más didáctico para el estudiante.<br>
-                        3.  El proceso de aprendizaje es más dinámico e interactivo el cual consiste en la presentación de contenidos d manera agradable al estudiante y el desarrollo de actividades para practicar lo aprendido.<br>
-
-                        Objetivo
+                        Pasos de un modelo lógico de datos a Modelo Relacional<br>
+                        Una regla importante que se debe tener en cuenta es la siguiente:<br>
+                        1.  Toda entidad es una tabla. <br>
+                        2.  Todos los atributos de una entidad, son columnas o campos de la tabla.<br>
+                        3.  Toda Relación Uno a Varios (1-N), la tabla hija hereda la tabla padre.<br>
+                        Ejemplo Empacadora de Galletas
                         <br>
-                        es el de guiar de una manera entretenida, practica, motivarte y sobre todo de manera interactiva para el aprendizaje de actividades académicas.<br>
-
-                        Además los OVAS son importables y pueden abrirse a través de un computador, una tableta o Smartphone es decir pueden ser consultados desde cualquier lugar o momento.<br>
-
-                        En la virtualidad se quiera dejar a tras las simples plataformas en la que los docentes pueden publicar documentos y los estudiantes pueden desarrollar actividades un poco monótonas.
-                        <br>
-                        <a href="http://www.fundacionidi.org/index.php/unidad-ti/desarrollo-de-objetos-de-aprendizaje-ova">Accede a OVA</a>
+                        Requiere modelar una base de datos para recibo de órdenes, la cual debe contener la información de clientes, artículos y órdenes.<br>
+                        De los clientes se desea tener su número (único), dirección de envió (Varias por cliente), nombre o razón social, Ingresos Anuales, limite de crédito y descuento.<br>
+                        De las ordenes se desea tener su numero de la orden (único), numero de cliente que la ordeno, la dirección de envió del cliente, fecha de orden. Además, todo el detalle de la orden, la cual contiene, los artículos pedidos con su cantidad ordenada y su cantidad pendiente, cada línea del detalle de la orden tienen un numero de línea, que es un consecutivo. <br>
+                        De los artículos se desea obtener su número (único), descripción del artículo, código de la planta que la  produce (varias) y cantidad almacenada en cada planta que lo produce.<br>
+                        Además se sabe que:<br>
+                        • No existen dos clientes con una dirección de envió común. <br>
+                        • Una planta puede producir varios artículos.<br>
+                        <a href="http://datateca.unad.edu.co/contenidos/301330/301330-ProtocoloBDB_2.pdf">Accede a contenido_301330</a>
                     </p>
       			</article>
     </section>
